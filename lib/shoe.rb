@@ -5,5 +5,12 @@ class Shoe
   def initialize(shoe)
     @shoe = shoe
   end
-  
+
+  def shoe
+    @shoe
+  end
+
+  def cobble
+    puts "Your shoe is as good as new!"
+
 end
