@@ -1,6 +1,6 @@
 class Book
 
-  def initialize(title) # getter
+  def title=(title) # getter
     @title = title
   end
 
