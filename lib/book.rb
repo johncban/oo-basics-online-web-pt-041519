@@ -1,10 +1,10 @@
 class Book
 
-  def initialize(title) # getter
+  def initialize(title) # setter
     @title = title
   end
 
-  def title
+  def title # getter
     @title
   end
 
@@ -12,7 +12,7 @@ class Book
     @author = author
   end
 
-  def author
+  def author # getter
     @author
   end
 
